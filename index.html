@@ -8,52 +8,65 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+<!--
+<body>
+    <div class="wrapper">
+        <div class="title name" id="ex">
+            Запуск любой из этих команд создаст каталог my-appвнутри текущей папки. Внутри этого каталога будет сгенерирована исходная структура проекта и установлены транзитивные зависимости:
+        </div>
+        <div class="wrapper-button">
+            <div class="bt">
+                <button class="btn" id="button" type="text"> Open  
+            
+        </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./js"></script>
+-->
 
 <body>
-    <div class="quiz" id="quiz">
-        <div class="quiz-questions" id="questions">
-            <div class="quiz-questions-item">
-                <div class="quiz-questions-item-question">Question 1</div>
-                <ul class="quiz-questions-item-answers">
-                    <li>
-                        <label>
-            <input type="radio" name="q1">
-            Answer 1
-        </label>
-                    </li>
-                    <li>
-                        <label>
-            <input type="radio" name="q1">
-            Answer 2
-        </label>
-                    </li>
-                </ul>
+    <h1 class="acord">Acordion</h1>
+    <div class="acord">
+        <div class="wrapper">
+            <div class="item text" data-name="title">
+                Block 1
+            </div>
+            <div class="list-item content">
+                toggle ( String [, Boolean]) Если класс у элемента отсутствует - добавляет, иначе - убирает. Когда вторым параметром передано false - удаляет указанный класс, а если true - добавляет. Если вторым параметром передан undefined или переменная с typeof ==
+                'undefined',
             </div>
         </div>
-        <div class="quiz-indicator" id="indicator">1/10</div>
-        <div class="quiz-results" id="results">
-            <div class="quiz-results-item">
-                <div class="quiz-results-item-question">Question 1</div>
-                <ul class="quiz-results-item-answers">
-                    <li>
-
-                        Answer 1
-
-                    </li>
-                    <li>
-
-                        Answer 2
-
-                    </li>
-                </ul>
+        <div class="wrapper">
+            <div class="item text" data-name="title">
+                Block 2
+            </div>
+            <div class="list-item content">
+                add( String [,String] ) Добавляет элементу указанные классы remove( String [,String] )
             </div>
         </div>
-        <div class="quiz-controls">
-            <button class="btn-next" id="btn-next">proceed</button>
-            <button class="btn-restart" id="btn-restart">start over</button>
+        <div class="wrapper">
+            <div class="item text" data-name="title">
+                Block 3
+            </div>
+            <div class="list-item content">
+                item ( Number ) Результат аналогичен вызову сlassList[Number]
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="item text" data-name="title">
+                Block 4
+            </div>
+            <div class="list-item content">
+                И, конечно же, у ClassList есть заветное свойство length, которое возвращает количество классов у элемента.
+            </div>
         </div>
     </div>
+    </div>
 </body>
-<script src="./main.js"></script>
+<script src="./js"></script>
 
 </html>
