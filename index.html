@@ -8,65 +8,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<!--
+
 <body>
     <div class="wrapper">
-        <div class="title name" id="ex">
-            Запуск любой из этих команд создаст каталог my-appвнутри текущей папки. Внутри этого каталога будет сгенерирована исходная структура проекта и установлены транзитивные зависимости:
-        </div>
-        <div class="wrapper-button">
-            <div class="bt">
-                <button class="btn" id="button" type="text"> Open  
-            
-        </button>
+        <div class="tabs">
+            <nav class="items">
+                <button data-tab="#tab-01" class="tab-item">tab 1</button>
+                <button data-tab="#tab-02" class="tab-item">tab 2</button>
+                <button data-tab="#tab-03" class="tab-item">tab 3</button>
+            </nav>
+
+            <div class="meaning">
+                <div id="tab-01" class="tab">
+                    HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables
+                </div>
+
+                <div id="tab-02" class="tab">
+
+                    CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features
+                </div>
+
+                <div id="tab-03" class="tab">
+                    Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers. JavaScript is so popular that it's the most used programming language in the world, used as a client-side programming language
+                    by 97.0% of all websites
+                </div>
             </div>
         </div>
-
     </div>
 
+    <script src="./app.js"></script>
 </body>
-<script src="./js"></script>
--->
-
-<body>
-    <h1 class="acord">Acordion</h1>
-    <div class="acord">
-        <div class="wrapper">
-            <div class="item text" data-name="title">
-                Block 1
-            </div>
-            <div class="list-item content">
-                toggle ( String [, Boolean]) Если класс у элемента отсутствует - добавляет, иначе - убирает. Когда вторым параметром передано false - удаляет указанный класс, а если true - добавляет. Если вторым параметром передан undefined или переменная с typeof ==
-                'undefined',
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="item text" data-name="title">
-                Block 2
-            </div>
-            <div class="list-item content">
-                add( String [,String] ) Добавляет элементу указанные классы remove( String [,String] )
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="item text" data-name="title">
-                Block 3
-            </div>
-            <div class="list-item content">
-                item ( Number ) Результат аналогичен вызову сlassList[Number]
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="item text" data-name="title">
-                Block 4
-            </div>
-            <div class="list-item content">
-                И, конечно же, у ClassList есть заветное свойство length, которое возвращает количество классов у элемента.
-            </div>
-        </div>
-    </div>
-    </div>
-</body>
-<script src="./js"></script>
 
 </html>
